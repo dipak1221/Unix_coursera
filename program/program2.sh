@@ -96,10 +96,10 @@
 # Write a Bash script that prints “Thank Moses it’s Friday” if today is Friday. (Hint: take a look at the date program).
 
 
-weekDate=$(date +%A)
-if [[ $(echo $weekDate | grep -Pi "monday") ]]
-then
-echo "today is monday"
-else 
-echo "not a friday"
-fi
+# weekDate=$(date +%A)
+# if [[ $(echo $weekDate | grep -Pi "monday") ]]
+# then
+# echo "today is monday"
+# else 
+# echo "not a friday"
+# fi
